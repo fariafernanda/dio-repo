@@ -1,0 +1,45 @@
+:root{
+    --red: #E50914;
+    --black:#0a0a0a;
+    --gray-bg:#141414;
+    --light-gray: #e3e3e3;
+    --white: #fff;
+    --medium-gray-hover: #b3b3b3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray-bg);
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--light-gray);
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+header nav a:hover{
+    color: var(--medium-gray-hover);
+ 
+}
+
+header .logo {
+    color: var(--red);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-left: 20px;
+}
