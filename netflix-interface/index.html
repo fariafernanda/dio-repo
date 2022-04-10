@@ -11,21 +11,25 @@
 </head>
 
 <body>
-    <header class="pinnig-header">
-        <div class="container">
+    <header>
+        <div class="header-container">
             <nav class="menu-nav">
-                <h2 class="logo">NETFLIX</h2>
-                <ul>
-                    <a href="#">Início</a>
-                    <a href="#">Séries</a>
-                    <a href="#">Filmes</a>
-                    <a href="#">Bombando</a>
-                    <a href="#">Minha lista</a>
-                    <a href="#">Busca</a>
-                    <a href="#">Infantil</a>
-                    <a href="#">Notificações</a>
-                    <a href="#">Perfil Dropdown</a>
+                <a href="#" class="logo">NETFLIX</a>
+                <ul class="primary-navigation">
+                    <li class="nav-tab"><a class="current-active" href="#">Início</a></li>
+                    <li class="nav-tab"><a href="#">Séries</a></li>
+                    <li class="nav-tab"><a href="#">Filmes</a></li>
+                    <li class="nav-tab"><a href="#">Bombando</a></li>
+                    <li class="nav-tab"><a href="#">Minha lista</a></li>                                        
                 </ul>
+
+                <div class="secondary-navigation">
+                    <a href="#"><img src="img/search.svg" width="23px" height="23px"></a>
+                    <a href="#">Infantil</a>
+                    <a href="#"><img id="notifications" src="img/notification.svg" width="30px" height="28px"></a>
+                    <a href="#"><img id="profile-pic" src="img/profile.png"></a>
+                </div>                
+                
             </nav>           
         </div>
     </header>

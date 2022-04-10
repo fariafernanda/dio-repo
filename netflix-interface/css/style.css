@@ -9,37 +9,100 @@
 
 * {
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     box-sizing: border-box;
 }
 
 body {
     background-color: var(--gray-bg);
+    color: var(--white);
+    line-height: 1.2;
     font-family: 'Helvetica';
-    color: white;
 }
 
-.menu-nav {
+header {
+    height: 70px;
+    display: block;
+}
+
+
+.menu-nav{
+    height: 70px;
     display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 4%;
+}
+
+.menu-nav > .logo {
+    text-decoration: none;
+    color: var(--red);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    margin-right: 5x;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.primary-navigation {
+    display: flex;
+    -webkit-box-align: center;
     align-items: center;
 }
 
-header nav a {
-    text-decoration: none;
-    color: var(--light-gray);
-    margin: 5px;
-    font-size: 14px;
-    font-weight: 550;
-}
-
-header nav a:hover{
-    color: var(--medium-gray-hover);
- 
-}
-
-header .logo {
-    color: var(--red);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 40px;
+li > a{
     margin-left: 20px;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 400;
+}
+
+li > a:hover {
+    color: var(--medium-gray-hover);
+    transition: color .4s;
+}
+
+.nav-tab > .current-active {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+    cursor:default;
+}
+
+.secondary-navigation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+      
+    
+}
+
+.secondary-navigation > a {
+    text-decoration: none;
+    color: var(--white);
+    margin-right: 25px;
+}
+
+.secondary-navigation > a:hover {
+    color: var(--medium-gray-hover);
+    transition: color .4s;
+}
+#profile-pic {
+    border-radius: 4px;
 }
