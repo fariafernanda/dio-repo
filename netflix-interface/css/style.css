@@ -3,6 +3,7 @@
     --black:#0a0a0a;
     --gray-bg:#141414;
     --light-gray: #e3e3e3;
+    --button-gray: rgb(239, 239, 239); 
     --white: #fff;
     --medium-gray-hover: #b3b3b3;
 }
@@ -105,4 +106,111 @@ li > a:hover {
 }
 #profile-pic {
     border-radius: 4px;
+}
+
+/* Filme principal */
+
+.main-movie {
+    background: url("../img/peaky-blinders-cover.jpg");
+    height: 550px;
+    background-size: cover;
+    position: relative;
+    font-size: 1.4vw;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+   
+}
+
+.movie-container {
+    z-index: 10;
+    position: relative;
+    width: 485px;
+    margin-left: 54px;
+  
+}
+
+.movie-title{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+.gradient {
+    background: rgba(0,0,0,0.2);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.watch-button {
+    border-radius: 4px;
+    font-size: 16px;
+     border: none;
+    font-weight: 600;
+    background-color: var(--button-gray);
+    height: 41px;
+    padding: 8px 20px;
+    width: 136px;
+    cursor: pointer;
+}
+
+.watch-button:hover{
+    background-color: #b3b3b3;
+}
+
+.black-svg {
+    color: var(--black);
+}
+
+.more-info-button{
+    height: 41px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: rgba(109, 109, 110, 0.4);
+    color: var(--white);
+    margin-right: 11px;
+    padding: 8px 20px;
+    width: 210px;
+    cursor: pointer;
+
+}
+
+.buttons-wrapper{
+    margin-top: 21px;
+    display: flex;
+    line-height: 88%;
+    position: relative;
+    align-items: center;
+  
+}
+
+.buttons {
+    margin-right: 11px;
+    position: relative;
+    
+    
+    
+}
+
+.path {
+    margin-right: 8px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+}
+
+.buttons span {
+    position: absolute;
+    top: 10px;
+    left: 46px;
+ 
+    
 }
