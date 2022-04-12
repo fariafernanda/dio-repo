@@ -1,0 +1,17 @@
+@media screen and (max-width: 780px) {
+    
+    .menu-nav{
+       
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 8px;
+    }
+
+    .main-movie p {
+        font-size: 16px;
+    }
+}
+

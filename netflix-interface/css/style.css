@@ -36,19 +36,7 @@ header {
     padding: 0 4%;
 }
 
-/* .menu-nav > .logo {
-    text-decoration: none;
-    color: var(--red);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 35px;
-    margin-right: 5x;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 1;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    
-} */
+
 
 .logo {
     size-adjust: 10%;
@@ -70,19 +58,19 @@ ul {
     align-items: center;
 }
 
-li > a{
+li  a{
     margin-left: 20px;
     text-decoration: none;
     color: var(--white);
     font-weight: 400;
 }
 
-li > a:hover {
+li  a:hover {
     color: var(--medium-gray-hover);
     transition: color .4s;
 }
 
-.nav-tab > .current-active {
+.nav-tab  .current-active {
     font-weight: 700;
     text-decoration: none;
     color: var(--white);
