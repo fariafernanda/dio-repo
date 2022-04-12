@@ -147,70 +147,51 @@ li > a:hover {
     right: 0;
 }
 
-.watch-button {
+button {
     border-radius: 4px;
-    font-size: 16px;
-     border: none;
-    font-weight: 600;
-    background-color: var(--button-gray);
     height: 41px;
+    font-size: 16px;
+    border: none;
     padding: 8px 20px;
-    width: 136px;
     cursor: pointer;
+    margin-right: 11px;
+    font-weight: 600;
+    
+}
+.watch-button {
+     background-color: var(--button-gray);
+     display: flex;
+     align-items: center;
 }
 
-.watch-button:hover{
+ .watch-button:hover{
     background-color: #b3b3b3;
+    transition: .4s ease-out;
 }
 
-.black-svg {
-    color: var(--black);
-}
 
 .more-info-button{
-    height: 41px;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    background-color: rgba(109, 109, 110, 0.4);
-    color: var(--white);
-    margin-right: 11px;
-    padding: 8px 20px;
-    width: 210px;
-    cursor: pointer;
-
+    background-color: rgba(109, 109, 110, 0.7);
+    color: var(--white); 
+    display: flex;
+    align-items: center;
 }
 
-.buttons-wrapper{
-    margin-top: 21px;
-    display: flex;
-    line-height: 88%;
-    position: relative;
-    align-items: center;
+.more-info-button:hover{
+    background-color: rgba(109, 109, 110, 0.4); 
+    transition: .4s ease-out; 
+}
+
+
+.buttons svg {
+    margin-right: 10px;
+}
+
+.buttons{
+  display: inline-block;
   
 }
 
-.buttons {
-    margin-right: 11px;
-    position: relative;
-    
-    
-    
-}
-
-.path {
-    margin-right: 8px;
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    z-index: 10;
-}
-
-.buttons span {
-    position: absolute;
-    top: 10px;
-    left: 46px;
- 
-    
+.buttons-wrapper {
+    margin-top: 21px;
 }
