@@ -19,6 +19,7 @@ body {
     color: var(--white);
     line-height: 1.2;
     font-family: 'Helvetica';
+    
 }
 
 header {
@@ -35,7 +36,7 @@ header {
     padding: 0 4%;
 }
 
-.menu-nav > .logo {
+/* .menu-nav > .logo {
     text-decoration: none;
     color: var(--red);
     font-family: 'Bebas Neue', cursive;
@@ -47,6 +48,10 @@ header {
     font-weight: 400;
     letter-spacing: 1.2px;
     
+} */
+
+.logo {
+    size-adjust: 10%;
 }
 
 ul {
@@ -112,7 +117,7 @@ li > a:hover {
 
 .main-movie {
     background: url("../img/peaky-blinders-cover.jpg");
-    height: 550px;
+    height: 590px;
     background-size: cover;
     position: relative;
     font-size: 1.4vw;
@@ -157,6 +162,7 @@ button {
     margin-right: 11px;
     font-weight: 600;
     
+    
 }
 .watch-button {
      background-color: var(--button-gray);
@@ -175,6 +181,7 @@ button {
     color: var(--white); 
     display: flex;
     align-items: center;
+    text-shadow: 2px 2px 1px rgb(0 0 0 / 45%);
 }
 
 .more-info-button:hover{
@@ -194,4 +201,27 @@ button {
 
 .buttons-wrapper {
     margin-top: 21px;
+}
+
+/* Carousel */
+
+.carousel img {
+    width: 190px;
+    height: 255px;
+    border-radius: 2px;
+}
+
+.carousel {
+    margin-top: 20px;
+    margin-left: 54px;
+    cursor: pointer;
+    
+}
+
+.carousel p{
+    font-size: 19px;
+    font-weight: 700;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+    
 }
