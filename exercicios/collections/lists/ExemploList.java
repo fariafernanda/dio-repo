@@ -1,3 +1,5 @@
+package lists;
+
 import java.util.*;
 
 // Dada uma lista de 7 notas de um aluno [7, 8.5, 9.3, 5, 7, 0, 3.6], faça:

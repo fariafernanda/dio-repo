@@ -1,3 +1,4 @@
+package lists;
 /** Dada as seguintes informações sobre gatos, crie uma lista e ordene-a.
  * Gato 1 = nome: Jon, idade: 18, cor: preto
  * Gato 2 = nome: Simba, idade: 6, cor: tigrado

@@ -1,3 +1,4 @@
+package lists;
 /** Implementação LinkedList:: 
  * Crie uma lista chamada notas2
  * coloque todos os elementos da list array nessa nova lista
